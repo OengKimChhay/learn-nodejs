@@ -1,0 +1,27 @@
+{
+  "name": "learn-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-generator": "^4.16.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "mongoose-delete": "^1.0.1",
+    "mysql": "^2.18.1",
+    "node-rdkafka": "^2.17.0",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.0"
+  }
+}
